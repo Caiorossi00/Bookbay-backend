@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "O Senhor dos Anéis",
+    "author": "J.R.R. Tolkien",
+    "price": 59.9,
+    "cover": "/covers/lotr.jpg",
+    "description": "Uma das maiores aventuras da literatura fantástica."
+  },
+  {
+    "id": 2,
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "price": 49.9,
+    "cover": "capa.jpg",
+    "description": "Livro sobre boas práticas."
+  }
+]
