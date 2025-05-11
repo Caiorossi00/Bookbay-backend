@@ -1,3 +1,4 @@
+const cors = require('cors');
 const express = require('express');
 const { readBooks, writeBooks } = require('./utils/fileHandler');
 
@@ -5,6 +6,7 @@ const app = express();
 const port = 3000;
 
 app.use(express.json());
+app.use(cors());
 
 app.get('/books', async (req, res) => {
     try {
