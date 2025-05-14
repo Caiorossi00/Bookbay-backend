@@ -1,18 +1,47 @@
 [
   {
-    "id": 1,
-    "title": "O Senhor dos Anéis",
-    "author": "J.R.R. Tolkien",
-    "price": 59.9,
-    "cover": "/covers/lotr.jpg",
-    "description": "Uma das maiores aventuras da literatura fantástica."
+    "id": 2,
+    "title": "1984",
+    "author": "George Orwell",
+    "price": "29",
+    "cover": "https://m.media-amazon.com/images/I/819js3EQwbL.jpg",
+    "description": "Lorem Ipsum simet Dolor",
+    "isDestaque": true
   },
   {
-    "id": 2,
-    "title": "Clean Code",
-    "author": "Robert C. Martin",
-    "price": 49.9,
-    "cover": "capa.jpg",
-    "description": "Livro sobre boas práticas."
+    "id": 548438,
+    "title": "Admirável Mundo Novo",
+    "author": "Aldous Huxley",
+    "price": "19",
+    "cover": "https://m.media-amazon.com/images/I/61hOp6UFvCL._SL1500_.jpg",
+    "description": "",
+    "isDestaque": true
+  },
+  {
+    "id": 90757,
+    "title": "O Sol é para Todos",
+    "author": "Harper Lee",
+    "price": "29",
+    "cover": "https://m.media-amazon.com/images/I/91WKPd60P4L._SL1500_.jpg",
+    "description": "dijwodjwe",
+    "isDestaque": true
+  },
+  {
+    "id": 840617,
+    "title": "",
+    "author": "",
+    "price": "",
+    "cover": "",
+    "description": "",
+    "isDestaque": true
+  },
+  {
+    "id": 372264,
+    "title": "Lorem Ipsum",
+    "author": "Simet",
+    "price": "93",
+    "cover": "",
+    "description": "",
+    "isDestaque": false
   }
 ]
