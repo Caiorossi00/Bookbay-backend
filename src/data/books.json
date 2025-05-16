@@ -27,21 +27,60 @@
     "isDestaque": true
   },
   {
-    "id": 840617,
-    "title": "",
-    "author": "",
-    "price": "",
-    "cover": "",
+    "id": 128448,
+    "title": "Lorem ",
+    "author": "Ipsum",
+    "price": "32",
+    "cover": "https://m.media-amazon.com/images/I/715JOcuqSSL._SL1021_.jpg",
     "description": "",
-    "isDestaque": true
+    "isDestaque": false
   },
   {
-    "id": 372264,
-    "title": "Lorem Ipsum",
-    "author": "Simet",
-    "price": "93",
-    "cover": "",
-    "description": "",
+    "id": 90757,
+    "title": "1Q84",
+    "author": "Haruki Murakami",
+    "price": "9,00",
+    "cover": "https://m.media-amazon.com/images/I/31Y33PweWWS._SY445_SX342_.jpg",
+    "isDestaque": false
+  },
+  {
+    "id": 521238,
+    "title": "A Arte da Guerra",
+    "author": "Sun Tzu",
+    "price": "12,00",
+    "cover": "https://m.media-amazon.com/images/I/51Fe45NGwkL._SY466_.jpg",
+    "isDestaque": false
+  },
+  {
+    "id": 52038,
+    "title": "A Desobediência Civil",
+    "author": "Henry David Thoreau",
+    "price": "8,00",
+    "cover": "https://m.media-amazon.com/images/I/41myzx6BxJL._SY445_SX342_.jpg",
+    "isDestaque": false
+  },
+  {
+    "id": 59899,
+    "title": "A Ética da Liberdade",
+    "author": "Murray Rothbard",
+    "price": "42,00",
+    "cover": "https://m.media-amazon.com/images/I/71S2v4hDjBL._SY466_.jpg",
+    "isDestaque": false
+  },
+  {
+    "id": 58899,
+    "title": "Identidade e Diferença",
+    "author": "Martin Heidegger",
+    "price": "5,00",
+    "cover": "https://m.media-amazon.com/images/I/51b00BQ+hvL._SY445_SX342_.jpg",
+    "isDestaque": false
+  },
+  {
+    "id": 67799,
+    "title": "A Metamorfose",
+    "author": "Franz Kafka",
+    "price": "14,00",
+    "cover": "https://m.media-amazon.com/images/I/41GSDX15NYL._SY445_SX342_.jpg",
     "isDestaque": false
   }
 ]
