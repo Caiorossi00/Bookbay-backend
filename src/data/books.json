@@ -27,15 +27,6 @@
     "isDestaque": true
   },
   {
-    "id": 128448,
-    "title": "Lorem ",
-    "author": "Ipsum",
-    "price": "32",
-    "cover": "https://m.media-amazon.com/images/I/715JOcuqSSL._SL1021_.jpg",
-    "description": "",
-    "isDestaque": false
-  },
-  {
     "id": 90757,
     "title": "1Q84",
     "author": "Haruki Murakami",
