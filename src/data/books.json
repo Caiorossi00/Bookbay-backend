@@ -1,14 +1,5 @@
 [
   {
-    "id": 2,
-    "title": "1984",
-    "author": "George Orwell",
-    "price": "29",
-    "cover": "https://m.media-amazon.com/images/I/819js3EQwbL.jpg",
-    "description": "Lorem Ipsum simet Dolor",
-    "isDestaque": true
-  },
-  {
     "id": 548438,
     "title": "Admirável Mundo Novo",
     "author": "Aldous Huxley",
@@ -27,10 +18,10 @@
     "isDestaque": true
   },
   {
-    "id": 90757,
+    "id": 90750,
     "title": "1Q84",
     "author": "Haruki Murakami",
-    "price": "9,00",
+    "price": "12",
     "cover": "https://m.media-amazon.com/images/I/31Y33PweWWS._SY445_SX342_.jpg",
     "isDestaque": false
   },

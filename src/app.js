@@ -90,6 +90,27 @@ app.get("/books/destaques", async (req, res) => {
   }
 });
 
+app.get("/books/:id", async (req, res) => {
+  try {
+    const books = await readBooks();
+    const bookId = parseInt(req.params.id, 10);
+
+    if (isNaN(bookId)) {
+      return res.status(400).json({ error: "ID inválido" });
+    }
+
+    const book = books.find((b) => b.id === bookId);
+
+    if (!book) {
+      return res.status(404).json({ error: "Livro não encontrado" });
+    }
+
+    res.status(200).json(book);
+  } catch (error) {
+    res.status(500).json({ error: "Erro ao buscar o livro" });
+  }
+});
+
 app.listen(port, () => {
   console.log(`Servidor rodando na porta ${port}`);
 });
