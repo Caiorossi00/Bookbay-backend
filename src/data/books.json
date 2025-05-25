@@ -1,20 +1,11 @@
 [
   {
-    "id": 548438,
-    "title": "Admirável Mundo Novo",
-    "author": "Aldous Huxley",
-    "price": "19",
-    "cover": "https://m.media-amazon.com/images/I/61hOp6UFvCL._SL1500_.jpg",
-    "description": "",
-    "isDestaque": true
-  },
-  {
     "id": 90757,
     "title": "O Sol é para Todos",
     "author": "Harper Lee",
-    "price": "29",
+    "price": "28",
     "cover": "https://m.media-amazon.com/images/I/91WKPd60P4L._SL1500_.jpg",
-    "description": "dijwodjwe",
+    "description": "Nesta emocionante história ambientada no Sul dos Estados Unidos da década de 1930, região envenenada pela violência do preconceito racial, vemos um mundo de grande beleza e ferozes desigualdades através dos olhos de uma menina de inteligência viva e questionadora, enquanto seu pai, um advogado local, arrisca tudo para defender um homem negro injustamente acusado de cometer um terrível crime.\n\nUma história sobre raça e classe, inocência e justiça, hipocrisia e heroísmo, tradição e transformação, O sol é para todos permanece tão importante hoje quanto foi em sua primeira edição, em 1960, durante os anos turbulentos da luta pelos direitos civis dos negros nos Estados Unidos.Em uma sociedade organizada segundo princípios estritamente científicos, Bernard Marx, um psicólogo, sente-se inadequado quando se compara aos outros seres de sua casta. Ao descobrir uma “reserva histórica” que preserva costumes de uma sociedade anterior – muito semelhante à do leitor – Bernard vai perceber as diferenças entre esta civilização e a sua – e a partir de um sentimento de inconformismo ele desafiará o mundo. A história de Bernard se passa em um ambiente em que a literatura, a música e o cinema só têm a função de solidificar a alienação; um universo que louva o avanço da técnica, a produção em série, a uniformidade contra a diversidade.\n\nMuitas das previsões de Huxley vieram a ser confirmadas anos mais tarde, como a tecnologia reprodutiva, as supostas técnicas de aprendizado durante o sono e a manipulação pelo condicionamento psicológico.\n\nAo lado de obras como Fahrenheit 451, de Ray Bradbury, e 1984, de George Orwell, que criticavam os governos totalitários de esquerda e de direita, Admirável Mundo Novo figura na lista dos livros mais relevantes e influentes de todos os tempos. O clássico de Huxley não é somente um hábil exercício de futurismo ou de ficção científica, mas um olhar acerca do autoritarismo no mundo desde que o livro foi publicado, em 1932, e que continua a nos assombrar.",
     "isDestaque": true
   },
   {
@@ -64,5 +55,41 @@
     "price": "14,00",
     "cover": "https://m.media-amazon.com/images/I/41GSDX15NYL._SY445_SX342_.jpg",
     "isDestaque": false
+  },
+  {
+    "id": 975936,
+    "title": "Código Limpo",
+    "author": "Robert C. Martin",
+    "price": "40",
+    "cover": "https://m.media-amazon.com/images/I/71JpZHEGvWL._SL1500_.jpg",
+    "description": "Mesmo um código ruim pode funcionar. Mas se ele não for limpo, pode acabar com uma empresa de desenvolvimento. Perdem-se a cada ano horas incontáveis e recursos importantes devido a um código mal escrito. Mas não precisa ser assim.\n\nO renomado especialista em software, Robert C. Martin, apresenta um paradigma revolucionário com Código limpo: Habilidades Práticas do Agile Software. Martin se reuniou com seus colegas do Mentor Object para destilar suas melhores e mais ágeis práticas de limpar códigos \"dinamicamente\" em um livro que introduzirá gradualmente dentro de você os valores da habilidade de um profissional de softwares e lhe tornar um programador melhor –mas só se você praticar. ",
+    "isDestaque": true
+  },
+  {
+    "id": 352841,
+    "title": "O Codificador Limpo",
+    "author": "Robert C. Martin",
+    "price": "30",
+    "cover": "https://m.media-amazon.com/images/I/91lBONZ4tAL._SL1500_.jpg",
+    "description": "Então você quer ser um profissional do desenvolvimento de softwares. Quer erguer a cabeça e declarar para o mundo: “Eu sou um profissional!”.\nQuer que as pessoas olhem para você com respeito e o tratem com consideração. Você quer isso tudo.\nCerto?\n\nO termo “Profissionalismo” é, sem dúvida, um distintivo de honra e orgulho, mas também é um marcador de incumbência e responsabilidade, que inclui trabalhar bem e honestamente.",
+    "isDestaque": true
+  },
+  {
+    "id": 678060,
+    "title": "Entendendo Algoritmos",
+    "author": "Aditya Y. Bhargava",
+    "price": "28",
+    "cover": "https://m.media-amazon.com/images/I/71Vkg7GfPFL._SL1296_.jpg",
+    "description": "Um guia ilustrado para programadores e outros curiosos. Um algoritmo nada mais é do que um procedimento passo a passo para a resolução de um problema. Os algoritmos que você mais utilizará como um programador já foram descobertos, testados e provados. Se você quer entendê-los, mas se recusa a estudar páginas e mais páginas de provas, este é o livro certo. Este guia cativante e completamente ilustrado torna simples aprender como utilizar os principais algoritmos nos seus programas. O livro Entendendo Algoritmos apresenta uma abordagem agradável para esse tópico essencial da ciência da computação. Nele, você aprenderá como aplicar algoritmos comuns nos problemas de programação enfrentados diariamente. Você começará com tarefas básicas como a ordenação e a pesquisa. Com a prática, você enfrentará problemas mais complexos, como a compressão de dados e a inteligência artificial. Cada exemplo é apresentado em detalhes e inclui diagramas e códigos completos em Python. Ao final deste livro, você terá dominado algoritmos amplamente aplicáveis e saberá quando e onde utilizá-los. O que este livro inclui A abordagem de algoritmos de pesquisa, ordenação e algoritmos gráficos Mais de 400 imagens com descrições detalhadas Comparações de desempenho entre algoritmos Exemplos de código em Python Este livro de fácil leitura e repleto de imagens é destinado a programadores autodidatas, engenheiros ou pessoas que gostariam de recordar o assunto.",
+    "isDestaque": true
+  },
+  {
+    "id": 436344,
+    "title": "O programador pragmático",
+    "author": "Andrew Hunt & David Thomas",
+    "price": "80",
+    "cover": "https://m.media-amazon.com/images/I/61hewOW+8zL._SL1500_.jpg",
+    "description": "O Programador Pragmático ilustra as melhores práticas e as principais armadilhas do desenvolvimento de software. Destinado a todos envolvidos com programação, de codificadores iniciantes a programadores experientes e gerentes responsáveis por projetos de software, apresenta lições simples que promovem rápidas melhorias na produtividade pessoal, precisão e satisfação profissional.",
+    "isDestaque": true
   }
 ]
