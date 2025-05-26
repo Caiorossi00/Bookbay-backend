@@ -63,7 +63,7 @@
     "price": "40",
     "cover": "https://m.media-amazon.com/images/I/71JpZHEGvWL._SL1500_.jpg",
     "description": "Mesmo um código ruim pode funcionar. Mas se ele não for limpo, pode acabar com uma empresa de desenvolvimento. Perdem-se a cada ano horas incontáveis e recursos importantes devido a um código mal escrito. Mas não precisa ser assim.\n\nO renomado especialista em software, Robert C. Martin, apresenta um paradigma revolucionário com Código limpo: Habilidades Práticas do Agile Software. Martin se reuniou com seus colegas do Mentor Object para destilar suas melhores e mais ágeis práticas de limpar códigos \"dinamicamente\" em um livro que introduzirá gradualmente dentro de você os valores da habilidade de um profissional de softwares e lhe tornar um programador melhor –mas só se você praticar. ",
-    "isDestaque": true
+    "isDestaque": false
   },
   {
     "id": 352841,
@@ -72,7 +72,7 @@
     "price": "30",
     "cover": "https://m.media-amazon.com/images/I/91lBONZ4tAL._SL1500_.jpg",
     "description": "Então você quer ser um profissional do desenvolvimento de softwares. Quer erguer a cabeça e declarar para o mundo: “Eu sou um profissional!”.\nQuer que as pessoas olhem para você com respeito e o tratem com consideração. Você quer isso tudo.\nCerto?\n\nO termo “Profissionalismo” é, sem dúvida, um distintivo de honra e orgulho, mas também é um marcador de incumbência e responsabilidade, que inclui trabalhar bem e honestamente.",
-    "isDestaque": true
+    "isDestaque": false
   },
   {
     "id": 678060,
@@ -81,7 +81,7 @@
     "price": "28",
     "cover": "https://m.media-amazon.com/images/I/71Vkg7GfPFL._SL1296_.jpg",
     "description": "Um guia ilustrado para programadores e outros curiosos. Um algoritmo nada mais é do que um procedimento passo a passo para a resolução de um problema. Os algoritmos que você mais utilizará como um programador já foram descobertos, testados e provados. Se você quer entendê-los, mas se recusa a estudar páginas e mais páginas de provas, este é o livro certo. Este guia cativante e completamente ilustrado torna simples aprender como utilizar os principais algoritmos nos seus programas. O livro Entendendo Algoritmos apresenta uma abordagem agradável para esse tópico essencial da ciência da computação. Nele, você aprenderá como aplicar algoritmos comuns nos problemas de programação enfrentados diariamente. Você começará com tarefas básicas como a ordenação e a pesquisa. Com a prática, você enfrentará problemas mais complexos, como a compressão de dados e a inteligência artificial. Cada exemplo é apresentado em detalhes e inclui diagramas e códigos completos em Python. Ao final deste livro, você terá dominado algoritmos amplamente aplicáveis e saberá quando e onde utilizá-los. O que este livro inclui A abordagem de algoritmos de pesquisa, ordenação e algoritmos gráficos Mais de 400 imagens com descrições detalhadas Comparações de desempenho entre algoritmos Exemplos de código em Python Este livro de fácil leitura e repleto de imagens é destinado a programadores autodidatas, engenheiros ou pessoas que gostariam de recordar o assunto.",
-    "isDestaque": true
+    "isDestaque": false
   },
   {
     "id": 436344,
@@ -91,5 +91,627 @@
     "cover": "https://m.media-amazon.com/images/I/61hewOW+8zL._SL1500_.jpg",
     "description": "O Programador Pragmático ilustra as melhores práticas e as principais armadilhas do desenvolvimento de software. Destinado a todos envolvidos com programação, de codificadores iniciantes a programadores experientes e gerentes responsáveis por projetos de software, apresenta lições simples que promovem rápidas melhorias na produtividade pessoal, precisão e satisfação profissional.",
     "isDestaque": true
+  },
+  {
+    "id": 1,
+    "title": "Crime e Castigo",
+    "author": "Fiódor Dostoiévski",
+    "price": "18",
+    "cover": "https://images.tcdn.com.br/img/img_prod/980922/crime_e_castigo_edicao_de_bolso_1043_1_08aa7936095d78a6ccc64c330b583e2a.jpg",
+    "description": "Um clássico da literatura russa que explora os limites da moral, justiça e redenção.",
+    "isDestaque": false
+  },
+  {
+    "id": 2,
+    "title": "Crime e Castigo Volume 2",
+    "author": "Fiódor Dostoiévski",
+    "price": "4",
+    "cover": "https://livrista.com.br/thumb/l600/capas/2011/3217/26183.jpg",
+    "description": "Continuação da história intensa de Raskólnikov, agora enfrentando as consequências de seus atos.",
+    "isDestaque": false
+  },
+  {
+    "id": 3,
+    "title": "Demian",
+    "author": "Hermann Hesse",
+    "price": "28",
+    "cover": "https://www.containercultura.com.br/imgs/produtos/25570/images/25570.jpg",
+    "description": "Um romance de formação que mergulha nos conflitos internos e espirituais do protagonista.",
+    "isDestaque": false
+  },
+  {
+    "id": 4,
+    "title": "Discurso Sobre a Servidão Voluntária",
+    "author": "Étienne de La Boétie",
+    "price": "10",
+    "cover": "https://m.media-amazon.com/images/I/51fqIkgV1KL._SX342_SY445_.jpg",
+    "description": "Um ensaio político poderoso sobre a liberdade e a obediência às autoridades.",
+    "isDestaque": false
+  },
+  {
+    "id": 5,
+    "title": "Dom Casmurro",
+    "author": "Machado de Assis",
+    "price": "6",
+    "cover": "https://m.media-amazon.com/images/I/51RYiCR51-L._SY445_SX342_.jpg",
+    "description": "Uma das maiores obras da literatura brasileira, marcada pela dúvida e subjetividade do narrador.",
+    "isDestaque": false
+  },
+  {
+    "id": 6,
+    "title": "Dom Quixote: Volume 1",
+    "author": "Miguel de Cervantes",
+    "price": "9",
+    "cover": "https://photos.enjoei.com.br/livro-dom-quixote-volume-1-86931677/800x800/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy84NTA3Mzg4L2Y3NWZlYmUyMGY2OGU0MDAwNWRhOGQwM2Q0NDM5NjI5LmpwZw",
+    "description": "O início das aventuras do cavaleiro da triste figura e seu fiel escudeiro Sancho Pança.",
+    "isDestaque": false
+  },
+  {
+    "id": 7,
+    "title": "Esquerda e Direita",
+    "author": "Murray Rothbard",
+    "price": "13",
+    "cover": "https://m.media-amazon.com/images/I/416hbbZ7b4L._SY445_SX342_.jpg",
+    "description": "Uma análise libertária das origens ideológicas e históricas da esquerda e da direita.",
+    "isDestaque": false
+  },
+  {
+    "id": 8,
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "price": "28",
+    "cover": "https://m.media-amazon.com/images/I/51tAD6LyZ-L._SY466_.jpg",
+    "description": "Uma distopia sobre o futuro onde livros são proibidos e queimados pelo Estado.",
+    "isDestaque": false
+  },
+  {
+    "id": 9,
+    "title": "Guerra e Paz: Quadrinhos",
+    "author": "Liev Tolstói",
+    "price": "14",
+    "cover": "https://m.media-amazon.com/images/I/610TWesl4lL._SY445_SX342_.jpg",
+    "description": "Adaptação em quadrinhos da obra-prima de Tolstói, mesclando guerra, amor e filosofia.",
+    "isDestaque": false
+  },
+  {
+    "id": 726931,
+    "title": "A Metamorfose, Planeta",
+    "author": "Franz Kafka",
+    "price": "22",
+    "cover": "https://m.media-amazon.com/images/I/516qKNlle4L._SY445_SX342_.jpg",
+    "description": "",
+    "isDestaque": false
+  },
+  {
+    "id": 153728,
+    "title": "A Metamorfose, Antofágica",
+    "author": "Franz Kafka",
+    "price": "32",
+    "cover": "https://m.media-amazon.com/images/I/71NLKLEEHvL._UX250_.jpg",
+    "description": "",
+    "isDestaque": false
+  },
+  {
+    "id": 938247,
+    "title": "A Miscelânea de Esportes, Jogos e Ócio de Schott",
+    "author": "Ben Schott",
+    "price": "10",
+    "cover": "https://m.media-amazon.com/images/I/41QmTO1wXQL._SY445_SX342_.jpg",
+    "description": "",
+    "isDestaque": false
+  },
+  {
+    "id": 524019,
+    "title": "A Odisseia",
+    "author": "Homero",
+    "price": "9",
+    "cover": "https://http2.mlstatic.com/D_NQ_NP_779315-MLU50499477326_062022-O.webp",
+    "description": "",
+    "isDestaque": false
+  },
+  {
+    "id": 819374,
+    "title": "A Relíquia",
+    "author": "Eça de Queirós",
+    "price": "6",
+    "cover": "https://m.media-amazon.com/images/I/31UZMI03KwL._SY445_SX342_.jpg",
+    "description": "",
+    "isDestaque": false
+  },
+  {
+    "id": 640158,
+    "title": "A Riqueza das Nações",
+    "author": "Adam Smith",
+    "price": "12",
+    "cover": "https://m.media-amazon.com/images/I/61BnHMB3PJL._SY466_.jpg",
+    "description": "",
+    "isDestaque": false
+  },
+  {
+    "id": 310470,
+    "title": "Admirável Mundo Novo",
+    "author": "Aldous Huxley",
+    "price": "24",
+    "cover": "https://m.media-amazon.com/images/I/41IKTYiymKL._SY445_SX342_.jpg",
+    "description": "",
+    "isDestaque": false
+  },
+  {
+    "id": 106822,
+    "title": "Albert Camus: Primeiros Cadernos",
+    "author": "Albert Camus",
+    "price": "13",
+    "cover": "https://d1pkzhm5uq4mnt.cloudfront.net/imagens/capas/_6ec68d86635250e5958cdb6575134e55294639c4.png",
+    "description": "",
+    "isDestaque": false
+  },
+  {
+    "id": 724095,
+    "title": "Bioética, o Que é, Como Se Faz?",
+    "author": "Fernando Lolas",
+    "price": "4",
+    "cover": "https://m.media-amazon.com/images/I/31at1mVv4EL._SX342_SY445_.jpg",
+    "description": "",
+    "isDestaque": false
+  },
+  {
+    "id": 495108,
+    "title": "Black Hole",
+    "author": "Charles Burns",
+    "price": "44",
+    "cover": "https://m.media-amazon.com/images/I/4143nh4iZsL._SY445_SX342_.jpg",
+    "description": "",
+    "isDestaque": false
+  },
+  {
+    "id": 219384,
+    "title": "Breve História de Quase Tudo",
+    "author": "Bill Bryson",
+    "price": "0",
+    "cover": "https://m.media-amazon.com/images/I/31J-8UEp5OL._SY445_SX342_.jpg",
+    "description": "",
+    "isDestaque": false
+  },
+  {
+    "id": 814731,
+    "title": "Contos Clarice Lispector",
+    "author": "Clarice Lispector",
+    "price": "69",
+    "cover": "https://m.media-amazon.com/images/I/61I4foVI0zL._SY445_SX342_.jpg",
+    "description": "",
+    "isDestaque": false
+  },
+  {
+    "id": 374108,
+    "title": "Contos Gauchescos e Lendas do Sul",
+    "author": "Simões Lopes Neto",
+    "price": "9",
+    "cover": "https://clandestini.org/wp-content/uploads/2020/08/CONTOS_GAUCHESCOS_E_LENDAS_DO_SUL_1257449886P.jpg",
+    "description": "",
+    "isDestaque": false
+  },
+  {
+    "id": 692147,
+    "title": "Contos Reunidos",
+    "author": "Fiódor Dostoiévski",
+    "price": "43",
+    "cover": "https://m.media-amazon.com/images/I/51z0+cCThEL._SY445_SX342_.jpg",
+    "description": "",
+    "isDestaque": false
+  },
+  {
+    "id": 847103,
+    "title": "Copa Loca",
+    "author": "Jaime de Almeida",
+    "price": "18",
+    "cover": "https://m.media-amazon.com/images/I/71YYEMdZs3L._SY466_.jpg",
+    "description": "",
+    "isDestaque": false
+  },
+  {
+    "id": 412,
+    "title": "Guiness World Records 1995",
+    "author": "Guiness",
+    "price": "R$13",
+    "cover": "https://d1pkzhm5uq4mnt.cloudfront.net/imagens/capas/_7fc284fe517f14a55ef7ceb82137aa9685ae2145.jpg",
+    "destaque": false
+  },
+  {
+    "id": 42131,
+    "title": "Guiness World Records 1997",
+    "author": "Vários",
+    "price": "R$13",
+    "cover": "https://m.media-amazon.com/images/I/41WHBtGdNxL._SY445_SX342_.jpg",
+    "destaque": false
+  },
+  {
+    "id": 412312,
+    "title": "Guiness World Records 2007",
+    "author": "Guiness",
+    "price": "R$13,00",
+    "cover": "https://m.media-amazon.com/images/I/41WJLu+V9hL._SY445_SX342_.jpg",
+    "destaque": false
+  },
+  {
+    "id": 4321333334,
+    "title": "Guiness World Records 2009",
+    "author": "Guiness",
+    "price": "R$13",
+    "cover": "https://m.media-amazon.com/images/I/51VhUlQoCIL._SY445_SX342_.jpg",
+    "destaque": false
+  },
+  {
+    "id": 21313,
+    "title": "Guiness World Records 2011",
+    "author": "Guiness",
+    "price": "R$13,00",
+    "cover": "https://m.media-amazon.com/images/I/51n7KBYB4fL._SY445_SX342_.jpg",
+    "destaque": false
+  },
+  {
+    "id": 9809,
+    "title": "Guiness World Records 2014",
+    "author": "Guiness",
+    "price": "R$13",
+    "cover": "https://m.media-amazon.com/images/I/61VhqmEUBTL._SX342_SY445_.jpg",
+    "destaque": false
+  },
+  {
+    "id": "g9a1be",
+    "title": "Guiness World Records Futebol 2010",
+    "author": "Guiness",
+    "price": "R$13,00",
+    "cover": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQCVLJbRLOWDakVUw-nC23BDzaDsi7o6r7ZcEeZGXYzmkit-u9_KqR_PHaN2A9WKiX6D_0s1IFdUAkLN9kQpGlNiJjA9KOR&usqp=CAY",
+    "destaque": false
+  },
+  {
+    "id": "h2f6d9",
+    "title": "Guiness World Records Futebol 2012",
+    "author": "Guiness",
+    "price": "R$13,00",
+    "cover": "https://images-americanas.b2w.io/produtos/3155892120/imagens/recordes-do-futebol-mundial-2012/3155892120_1_xlarge.jpg",
+    "destaque": false
+  },
+  {
+    "id": "i7e1b2",
+    "title": "Hellraiser: Renascido do Inferno",
+    "author": "Clive Barker",
+    "price": "R$48,00",
+    "cover": "https://m.media-amazon.com/images/I/51gRYU9z8CL._SY445_SX342_.jpg",
+    "destaque": false
+  },
+  {
+    "id": "j4c92e",
+    "title": "Guinness World Records 2010 Games",
+    "author": "Guiness",
+    "price": "R$35,00",
+    "cover": "https://m.media-amazon.com/images/I/31e7-31iNFL.jpg",
+    "destaque": false
+  },
+  {
+    "id": "k9d7c1",
+    "title": "Histórias de Bulka",
+    "author": "Lev Tolstói",
+    "price": "R$13,00",
+    "cover": "https://m.media-amazon.com/images/I/61VFFgP1YzL._SY466_.jpg",
+    "destaque": false
+  },
+  {
+    "id": "l3e5a9",
+    "title": "Horror em Amityville",
+    "author": "Jay Anson",
+    "price": "R$18,00",
+    "cover": "https://i0.wp.com/resenhandosonhos.com/wp-content/uploads/2015/10/horroremamityville-1.jpg?resize=302%2C450",
+    "destaque": false
+  },
+  {
+    "id": "m1c8f2",
+    "title": "Ilíada",
+    "author": "Homero",
+    "price": "R$9,00",
+    "cover": "https://a-static.mlcdn.com.br/800x560/livro-iliada/magazineluiza/228539700/9e11c08aee2cca10e7a147459b39700f.jpg",
+    "disponivel": "não",
+    "destaque": false
+  },
+  {
+    "id": "n7f1a3",
+    "title": "Iniciação à História da Filosofia",
+    "author": "Mariano Artigas",
+    "price": "R$35,00",
+    "cover": "https://m.media-amazon.com/images/I/418a5YIE8IL._SY445_SX342_.jpg",
+    "destaque": false
+  },
+  {
+    "id": "o5b4d8",
+    "title": "Liga da Justiça: Crise de Identidade",
+    "author": "Brad Meltzer",
+    "price": "R$48,00",
+    "cover": "https://m.media-amazon.com/images/I/51UGPKwgLrL._SY445_SX342_.jpg",
+    "destaque": false
+  },
+  {
+    "id": "p9a2f4",
+    "title": "Maus",
+    "author": "Art Spiegelman",
+    "price": "R$39,00",
+    "cover": "https://m.media-amazon.com/images/I/51jq-ZU9yHL._SY445_SX342_.jpg",
+    "disponivel": "não",
+    "destaque": false
+  },
+  {
+    "id": "q6e3b7",
+    "title": "Meditações",
+    "author": "Marco Aurélio",
+    "price": "R$13,00",
+    "cover": "https://m.media-amazon.com/images/I/612B0id4gNL._SY466_.jpg",
+    "destaque": false
+  },
+  {
+    "id": 3912,
+    "title": "Memórias de Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "price": "R$7,00",
+    "cover": "https://higinocultural.com.br/wp-content/uploads/2021/12/Memorias-De-Sherlock-Holmes-Sir-Arthur-Conan-Doyle.jpg",
+    "destaque": false
+  },
+  {
+    "id": "s8c5a2",
+    "title": "Memórias do Subsolo",
+    "author": "Fiódor Dostoiévski",
+    "price": "R$22,00",
+    "cover": "https://m.media-amazon.com/images/I/51q5HvjLe7L._SY445_SX342_.jpg",
+    "destaque": false
+  },
+  {
+    "id": "t3f9d6",
+    "title": "Mercenário, Anatomia de um Assassino",
+    "author": "Benoît Delépine",
+    "price": "R$12,00",
+    "cover": "https://m.media-amazon.com/images/I/61RkHEB78RL._SY445_SX342_.jpg",
+    "destaque": false
+  },
+  {
+    "id": 8472103,
+    "title": "Mindhunter",
+    "author": "John E. Douglas",
+    "price": "18",
+    "cover": "https://m.media-amazon.com/images/I/51xCJlGE0zL._SY445_SX342_.jpg",
+    "description": "",
+    "isDestaque": false
+  },
+  {
+    "id": 739452,
+    "title": "Naruto: O guia secreto do confronto",
+    "author": "Vários",
+    "price": "14",
+    "cover": "https://m.media-amazon.com/images/I/51oEo-mSfdL._SY445_SX342_.jpg",
+    "description": "",
+    "isDestaque": false
+  },
+  {
+    "id": 561839,
+    "title": "Naruto vol.20",
+    "author": "Masashi Kishimoto",
+    "price": "7",
+    "cover": "https://m.media-amazon.com/images/I/51FD+PStD7L._SY445_SX342_.jpg",
+    "description": "",
+    "isDestaque": false
+  },
+  {
+    "id": 963742,
+    "title": "Naruto vol.22",
+    "author": "Masashi Kishimoto",
+    "price": "7",
+    "cover": "https://m.media-amazon.com/images/I/81F-3-3LR4L._AC_UF1000,1000_QL80_.jpg",
+    "description": "",
+    "isDestaque": false
+  },
+  {
+    "id": 421508,
+    "title": "Naruto vol.28",
+    "author": "Masashi Kishimoto",
+    "price": "7",
+    "cover": "https://m.media-amazon.com/images/I/818ozbslx8L._SY466_.jpg",
+    "description": "",
+    "isDestaque": false
+  },
+  {
+    "id": 652317,
+    "title": "Naruto vol.31",
+    "author": "Masashi Kishimoto",
+    "price": "7",
+    "cover": "https://m.media-amazon.com/images/I/51TBKOCmwtL._SY445_SX342_.jpg",
+    "description": "",
+    "isDestaque": false
+  },
+  {
+    "id": 789630,
+    "title": "Naruto vol.36",
+    "author": "Masashi Kishimoto",
+    "price": "7",
+    "cover": "https://down-br.img.susercontent.com/file/1b6713faa9dc8e7464cbf9000807d5b7",
+    "description": "",
+    "isDestaque": false
+  },
+  {
+    "id": 417965,
+    "title": "Naruto vol.41",
+    "author": "Masashi Kishimoto",
+    "price": "7",
+    "cover": "https://m.media-amazon.com/images/I/61K5bYqr2KL._AC_UF1000,1000_QL80_.jpg",
+    "description": "",
+    "isDestaque": false
+  },
+  {
+    "id": 231547,
+    "title": "Naruto vol.58",
+    "author": "Masashi Kishimoto",
+    "price": "7",
+    "cover": "https://rika.vtexassets.com/arquivos/ids/163230-1200-auto?v=635314381891500000&width=1200&height=auto&aspect=true",
+    "description": "",
+    "isDestaque": false
+  },
+  {
+    "id": 374896,
+    "title": "O Auto da Barca do Inferno",
+    "author": "Gil Vicente",
+    "price": "7",
+    "cover": "https://m.media-amazon.com/images/I/41FJuHmglcL._SY445_SX342_.jpg",
+    "description": "",
+    "isDestaque": false
+  },
+  {
+    "title": "O Código Bro",
+    "author": "Vários",
+    "price": "R$3,00",
+    "cover": "https://m.media-amazon.com/images/I/71+IPNUX0dL._SY466_.jpg",
+    "isDestaque": false
+  },
+  {
+    "title": "O Código da Vinci: Edição Especial",
+    "author": "Dan Brown",
+    "price": "R$25,00",
+    "cover": "https://m.media-amazon.com/images/I/41r5FM0oRdL._SX342_SY445_.jpg",
+    "isDestaque": false
+  },
+  {
+    "title": "O Cortiço",
+    "author": "Aluísio Azevedo",
+    "price": "R$9,00",
+    "cover": "https://m.media-amazon.com/images/I/516NYqZI67L._SY445_SX342_.jpg",
+    "disponivel": "não"
+  },
+  {
+    "title": "O Diário de Anne Frank",
+    "author": "Anne Frank",
+    "price": "R$8,00",
+    "cover": "https://m.media-amazon.com/images/I/514tKci6HIL._SY466_.jpg",
+    "disponivel": "não"
+  },
+  {
+    "title": "O Escultor",
+    "author": "Scott McCloud",
+    "price": "R$49,00",
+    "cover": "https://m.media-amazon.com/images/I/91P2sM-saJL._SY466_.jpg",
+    "isDestaque": false
+  },
+  {
+    "title": "O Estrangeiro",
+    "author": "Albert Camus",
+    "price": "R$19,00",
+    "cover": "https://m.media-amazon.com/images/I/61cFRircgZL._SY445_SX342_.jpg",
+    "isDestaque": false
+  },
+  {
+    "title": "O Exorcista",
+    "author": "William Peter Blatty",
+    "price": "R$18,00",
+    "cover": "https://m.media-amazon.com/images/I/51nc43XKzfL._AC_UF1000,1000_QL80_.jpg",
+    "disponivel": "não"
+  },
+  {
+    "title": "O Fantasma de Canterville",
+    "author": "Oscar Wilde",
+    "price": "R$8,00",
+    "cover": "https://livralivro.com.br/uploads/book/img/180/8562287180.jpg",
+    "disponivel": "não"
+  },
+  {
+    "title": "O Homem que Caiu na Terra",
+    "author": "Walter Tevis",
+    "price": "R$42,00",
+    "cover": "https://m.media-amazon.com/images/I/41Anc9NXYML._SX342_SY445_.jpg",
+    "isDestaque": false
+  },
+  {
+    "title": "O Homem que Calculava",
+    "author": "Malba Tahan",
+    "price": "R$14,00",
+    "cover": "https://m.aabbportoalegre.com.br/intranet/modulos/biblioteca/imgs/6819.jpg",
+    "isDestaque": false
+  },
+  {
+    "title": "O Idiota",
+    "author": "Fiódor Dostoiévski",
+    "price": "R$32,00",
+    "cover": "https://m.media-amazon.com/images/I/51EuSosoqJL._SY445_SX342_.jpg",
+    "isDestaque": false
+  },
+  {
+    "title": "O Livre Mercado e Seus Inimigos",
+    "author": "Ludwig von Mises",
+    "price": "R$22,00",
+    "cover": "https://m.media-amazon.com/images/I/51y2WDdIQoL._SY445_SX342_.jpg",
+    "isDestaque": false
+  },
+  {
+    "title": "O Lobo da Estepe",
+    "author": "Hermann Hesse",
+    "price": "R$28,00",
+    "cover": "https://m.media-amazon.com/images/I/A1emmdNI8-L._AC_UF1000,1000_QL80_.jpg",
+    "isDestaque": false
+  },
+  {
+    "title": "O Livro dos Manuais",
+    "author": "Paulo Coelho",
+    "price": "R$7,00",
+    "cover": "https://d1pkzhm5uq4mnt.cloudfront.net/imagens/capas/d187c640f271044e18ed71e457b12dc58e63f155.jpg",
+    "isDestaque": false
+  },
+  {
+    "title": "O Príncipe",
+    "author": "Maquiavel",
+    "price": "R$8,00",
+    "cover": "https://m.media-amazon.com/images/I/51fJp6IPGAL._SY445_SX342_.jpg",
+    "isDestaque": false
+  },
+  {
+    "title": "O Sol é Para Todos",
+    "author": "Harper Lee",
+    "price": "R$26,00",
+    "cover": "https://m.media-amazon.com/images/I/91WKPd60P4L._SY466_.jpg",
+    "isDestaque": false
+  },
+  {
+    "title": "O Universo Numa Casca de Noz",
+    "author": "Stephen Hawking",
+    "price": "R$25,00",
+    "cover": "https://m.media-amazon.com/images/I/314o1VN4iqL._SY445_SX342_.jpg",
+    "isDestaque": false
+  },
+  {
+    "title": "Os Sofrimentos do Jovem Werther",
+    "author": "Johann Wolfgang von Goethe",
+    "price": "R$22,00",
+    "cover": "https://m.media-amazon.com/images/I/51SSEeTIXcL._SY445_SX342_.jpg",
+    "isDestaque": false
+  },
+  {
+    "title": "Os Sertões Volume 1 + Volume 2",
+    "author": "Euclides da Cunha",
+    "price": "R$18,00",
+    "cover": "https://cdn.awsli.com.br/300x300/1832/1832888/produto/20186401226140ed57f.jpg",
+    "isDestaque": false
+  },
+  {
+    "title": "O que o Governo Fez com o Nosso Dinheiro",
+    "author": "Murray Rothbard",
+    "price": "R$14,00",
+    "cover": "https://m.media-amazon.com/images/I/51sstEmjdML._SY445_SX342_.jpg",
+    "isDestaque": false
+  },
+  {
+    "title": "O Que Se Vê e o Que Não Se Vê",
+    "author": "Frédéric Bastiat",
+    "price": "R$24,00",
+    "cover": "https://m.media-amazon.com/images/I/51BuPo24QOL._SY445_SX342_.jpg",
+    "isDestaque": false
+  },
+  {
+    "title": "One punch man vol.01",
+    "author": "Yusuke Murata",
+    "price": "R$14,00",
+    "cover": "https://m.media-amazon.com/images/I/51b1z-rl+zL._SY445_SX342_.jpg",
+    "isDestaque": false
   }
 ]
