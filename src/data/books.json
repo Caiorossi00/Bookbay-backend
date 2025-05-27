@@ -20,7 +20,7 @@
     "id": 521238,
     "title": "A Arte da Guerra",
     "author": "Sun Tzu",
-    "price": "12,00",
+    "price": "12",
     "cover": "https://m.media-amazon.com/images/I/51Fe45NGwkL._SY466_.jpg",
     "isDestaque": false
   },
@@ -28,7 +28,7 @@
     "id": 52038,
     "title": "A Desobediência Civil",
     "author": "Henry David Thoreau",
-    "price": "8,00",
+    "price": "8",
     "cover": "https://m.media-amazon.com/images/I/41myzx6BxJL._SY445_SX342_.jpg",
     "isDestaque": false
   },
@@ -36,7 +36,7 @@
     "id": 59899,
     "title": "A Ética da Liberdade",
     "author": "Murray Rothbard",
-    "price": "42,00",
+    "price": "42",
     "cover": "https://m.media-amazon.com/images/I/71S2v4hDjBL._SY466_.jpg",
     "isDestaque": false
   },
@@ -44,7 +44,7 @@
     "id": 58899,
     "title": "Identidade e Diferença",
     "author": "Martin Heidegger",
-    "price": "5,00",
+    "price": "5",
     "cover": "https://m.media-amazon.com/images/I/51b00BQ+hvL._SY445_SX342_.jpg",
     "isDestaque": false
   },
@@ -52,7 +52,7 @@
     "id": 67799,
     "title": "A Metamorfose",
     "author": "Franz Kafka",
-    "price": "14,00",
+    "price": "14",
     "cover": "https://m.media-amazon.com/images/I/41GSDX15NYL._SY445_SX342_.jpg",
     "isDestaque": false
   },
@@ -93,7 +93,7 @@
     "isDestaque": true
   },
   {
-    "id": 1,
+    "id": 166666,
     "title": "Crime e Castigo",
     "author": "Fiódor Dostoiévski",
     "price": "18",
@@ -102,7 +102,7 @@
     "isDestaque": false
   },
   {
-    "id": 2,
+    "id": 26565,
     "title": "Crime e Castigo Volume 2",
     "author": "Fiódor Dostoiévski",
     "price": "4",
@@ -111,7 +111,7 @@
     "isDestaque": false
   },
   {
-    "id": 3,
+    "id": 39080,
     "title": "Demian",
     "author": "Hermann Hesse",
     "price": "28",
@@ -120,7 +120,7 @@
     "isDestaque": false
   },
   {
-    "id": 4,
+    "id": 4879,
     "title": "Discurso Sobre a Servidão Voluntária",
     "author": "Étienne de La Boétie",
     "price": "10",
@@ -129,7 +129,7 @@
     "isDestaque": false
   },
   {
-    "id": 5,
+    "id": 435345,
     "title": "Dom Casmurro",
     "author": "Machado de Assis",
     "price": "6",
@@ -138,7 +138,7 @@
     "isDestaque": false
   },
   {
-    "id": 6,
+    "id": 242346,
     "title": "Dom Quixote: Volume 1",
     "author": "Miguel de Cervantes",
     "price": "9",
@@ -147,7 +147,7 @@
     "isDestaque": false
   },
   {
-    "id": 7,
+    "id": 2342347,
     "title": "Esquerda e Direita",
     "author": "Murray Rothbard",
     "price": "13",
@@ -156,7 +156,7 @@
     "isDestaque": false
   },
   {
-    "id": 8,
+    "id": 52328,
     "title": "Fahrenheit 451",
     "author": "Ray Bradbury",
     "price": "28",
@@ -165,7 +165,7 @@
     "isDestaque": false
   },
   {
-    "id": 9,
+    "id": 43339,
     "title": "Guerra e Paz: Quadrinhos",
     "author": "Liev Tolstói",
     "price": "14",
@@ -312,163 +312,161 @@
     "id": 412,
     "title": "Guiness World Records 1995",
     "author": "Guiness",
-    "price": "R$13",
+    "price": "13",
     "cover": "https://d1pkzhm5uq4mnt.cloudfront.net/imagens/capas/_7fc284fe517f14a55ef7ceb82137aa9685ae2145.jpg",
-    "destaque": false
+    "isDestaque": false
   },
   {
     "id": 42131,
     "title": "Guiness World Records 1997",
     "author": "Vários",
-    "price": "R$13",
+    "price": "13",
     "cover": "https://m.media-amazon.com/images/I/41WHBtGdNxL._SY445_SX342_.jpg",
-    "destaque": false
+    "isDestaque": false
   },
   {
     "id": 412312,
     "title": "Guiness World Records 2007",
     "author": "Guiness",
-    "price": "R$13,00",
+    "price": "13",
     "cover": "https://m.media-amazon.com/images/I/41WJLu+V9hL._SY445_SX342_.jpg",
-    "destaque": false
+    "isDestaque": false
   },
   {
     "id": 4321333334,
     "title": "Guiness World Records 2009",
     "author": "Guiness",
-    "price": "R$13",
+    "price": "13",
     "cover": "https://m.media-amazon.com/images/I/51VhUlQoCIL._SY445_SX342_.jpg",
-    "destaque": false
+    "isDestaque": false
   },
   {
     "id": 21313,
     "title": "Guiness World Records 2011",
     "author": "Guiness",
-    "price": "R$13,00",
+    "price": "13",
     "cover": "https://m.media-amazon.com/images/I/51n7KBYB4fL._SY445_SX342_.jpg",
-    "destaque": false
+    "isDestaque": false
   },
   {
     "id": 9809,
     "title": "Guiness World Records 2014",
     "author": "Guiness",
-    "price": "R$13",
+    "price": "13",
     "cover": "https://m.media-amazon.com/images/I/61VhqmEUBTL._SX342_SY445_.jpg",
-    "destaque": false
+    "isDestaque": false
   },
   {
-    "id": "g9a1be",
+    "id": 8091283,
     "title": "Guiness World Records Futebol 2010",
     "author": "Guiness",
-    "price": "R$13,00",
+    "price": "13",
     "cover": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQCVLJbRLOWDakVUw-nC23BDzaDsi7o6r7ZcEeZGXYzmkit-u9_KqR_PHaN2A9WKiX6D_0s1IFdUAkLN9kQpGlNiJjA9KOR&usqp=CAY",
-    "destaque": false
+    "isDestaque": false
   },
   {
-    "id": "h2f6d9",
+    "id": 8091243,
     "title": "Guiness World Records Futebol 2012",
     "author": "Guiness",
-    "price": "R$13,00",
+    "price": "13",
     "cover": "https://images-americanas.b2w.io/produtos/3155892120/imagens/recordes-do-futebol-mundial-2012/3155892120_1_xlarge.jpg",
-    "destaque": false
+    "isDestaque": false
   },
   {
-    "id": "i7e1b2",
+    "id": 809122,
     "title": "Hellraiser: Renascido do Inferno",
     "author": "Clive Barker",
-    "price": "R$48,00",
+    "price": "48",
     "cover": "https://m.media-amazon.com/images/I/51gRYU9z8CL._SY445_SX342_.jpg",
-    "destaque": false
+    "isDestaque": false
   },
   {
-    "id": "j4c92e",
+    "id": 9083091,
     "title": "Guinness World Records 2010 Games",
     "author": "Guiness",
-    "price": "R$35,00",
+    "price": "35",
     "cover": "https://m.media-amazon.com/images/I/31e7-31iNFL.jpg",
-    "destaque": false
+    "isDestaque": false
   },
   {
-    "id": "k9d7c1",
+    "id": 228219,
     "title": "Histórias de Bulka",
     "author": "Lev Tolstói",
-    "price": "R$13,00",
+    "price": "13",
     "cover": "https://m.media-amazon.com/images/I/61VFFgP1YzL._SY466_.jpg",
-    "destaque": false
+    "isDestaque": false
   },
   {
-    "id": "l3e5a9",
+    "id": 88329,
     "title": "Horror em Amityville",
     "author": "Jay Anson",
-    "price": "R$18,00",
+    "price": "18",
     "cover": "https://i0.wp.com/resenhandosonhos.com/wp-content/uploads/2015/10/horroremamityville-1.jpg?resize=302%2C450",
-    "destaque": false
+    "isDestaque": false
   },
   {
-    "id": "m1c8f2",
+    "id": 909123,
     "title": "Ilíada",
     "author": "Homero",
-    "price": "R$9,00",
+    "price": "9",
     "cover": "https://a-static.mlcdn.com.br/800x560/livro-iliada/magazineluiza/228539700/9e11c08aee2cca10e7a147459b39700f.jpg",
-    "disponivel": "não",
-    "destaque": false
+    "isDestaque": false
   },
   {
-    "id": "n7f1a3",
+    "id": 31829,
     "title": "Iniciação à História da Filosofia",
     "author": "Mariano Artigas",
-    "price": "R$35,00",
+    "price": "35",
     "cover": "https://m.media-amazon.com/images/I/418a5YIE8IL._SY445_SX342_.jpg",
-    "destaque": false
+    "isDestaque": false
   },
   {
-    "id": "o5b4d8",
+    "id": 918723,
     "title": "Liga da Justiça: Crise de Identidade",
     "author": "Brad Meltzer",
-    "price": "R$48,00",
+    "price": "48",
     "cover": "https://m.media-amazon.com/images/I/51UGPKwgLrL._SY445_SX342_.jpg",
-    "destaque": false
+    "isDestaque": false
   },
   {
-    "id": "p9a2f4",
+    "id": 93012,
     "title": "Maus",
     "author": "Art Spiegelman",
-    "price": "R$39,00",
+    "price": "39",
     "cover": "https://m.media-amazon.com/images/I/51jq-ZU9yHL._SY445_SX342_.jpg",
-    "disponivel": "não",
-    "destaque": false
+    "isDestaque": false
   },
   {
-    "id": "q6e3b7",
+    "id": 902193,
     "title": "Meditações",
     "author": "Marco Aurélio",
-    "price": "R$13,00",
+    "price": "13",
     "cover": "https://m.media-amazon.com/images/I/612B0id4gNL._SY466_.jpg",
-    "destaque": false
+    "isDestaque": false
   },
   {
     "id": 3912,
     "title": "Memórias de Sherlock Holmes",
     "author": "Arthur Conan Doyle",
-    "price": "R$7,00",
+    "price": "7",
     "cover": "https://higinocultural.com.br/wp-content/uploads/2021/12/Memorias-De-Sherlock-Holmes-Sir-Arthur-Conan-Doyle.jpg",
-    "destaque": false
+    "isDestaque": false
   },
   {
-    "id": "s8c5a2",
+    "id": 112312,
     "title": "Memórias do Subsolo",
     "author": "Fiódor Dostoiévski",
-    "price": "R$22,00",
+    "price": "22",
     "cover": "https://m.media-amazon.com/images/I/51q5HvjLe7L._SY445_SX342_.jpg",
-    "destaque": false
+    "isDestaque": false
   },
   {
-    "id": "t3f9d6",
+    "id": 192032,
     "title": "Mercenário, Anatomia de um Assassino",
     "author": "Benoît Delépine",
-    "price": "R$12,00",
+    "price": "12",
     "cover": "https://m.media-amazon.com/images/I/61RkHEB78RL._SY445_SX342_.jpg",
-    "destaque": false
+    "isDestaque": false
   },
   {
     "id": 8472103,
@@ -561,157 +559,194 @@
     "isDestaque": false
   },
   {
+    "id": 374898,
     "title": "O Código Bro",
     "author": "Vários",
-    "price": "R$3,00",
+    "price": "3",
     "cover": "https://m.media-amazon.com/images/I/71+IPNUX0dL._SY466_.jpg",
+    "description": "",
     "isDestaque": false
   },
   {
+    "id": 3748928,
+
     "title": "O Código da Vinci: Edição Especial",
     "author": "Dan Brown",
-    "price": "R$25,00",
+    "price": "25",
     "cover": "https://m.media-amazon.com/images/I/41r5FM0oRdL._SX342_SY445_.jpg",
+    "description": "",
     "isDestaque": false
   },
   {
+    "id": 329898,
     "title": "O Cortiço",
     "author": "Aluísio Azevedo",
-    "price": "R$9,00",
+    "price": "9",
     "cover": "https://m.media-amazon.com/images/I/516NYqZI67L._SY445_SX342_.jpg",
-    "disponivel": "não"
+    "description": "",
+    "isDestaque": false
   },
   {
+    "id": 29898,
     "title": "O Diário de Anne Frank",
     "author": "Anne Frank",
-    "price": "R$8,00",
+    "price": "8",
     "cover": "https://m.media-amazon.com/images/I/514tKci6HIL._SY466_.jpg",
-    "disponivel": "não"
+    "description": "",
+    "isDestaque": false
   },
   {
+    "id": 29895,
     "title": "O Escultor",
     "author": "Scott McCloud",
-    "price": "R$49,00",
+    "price": "49",
     "cover": "https://m.media-amazon.com/images/I/91P2sM-saJL._SY466_.jpg",
+    "description": "",
     "isDestaque": false
   },
   {
+    "id": 292389,
     "title": "O Estrangeiro",
     "author": "Albert Camus",
-    "price": "R$19,00",
+    "price": "19",
     "cover": "https://m.media-amazon.com/images/I/61cFRircgZL._SY445_SX342_.jpg",
+    "description": "",
     "isDestaque": false
   },
   {
+    "id": 239139,
+
     "title": "O Exorcista",
     "author": "William Peter Blatty",
-    "price": "R$18,00",
+    "price": "18",
     "cover": "https://m.media-amazon.com/images/I/51nc43XKzfL._AC_UF1000,1000_QL80_.jpg",
-    "disponivel": "não"
+    "description": "",
+    "isDestaque": false
   },
   {
+    "id": 22903,
     "title": "O Fantasma de Canterville",
     "author": "Oscar Wilde",
-    "price": "R$8,00",
+    "price": "8",
     "cover": "https://livralivro.com.br/uploads/book/img/180/8562287180.jpg",
-    "disponivel": "não"
+    "description": "",
+    "isDestaque": false
   },
   {
+    "id": 372877,
     "title": "O Homem que Caiu na Terra",
     "author": "Walter Tevis",
-    "price": "R$42,00",
+    "price": "42",
     "cover": "https://m.media-amazon.com/images/I/41Anc9NXYML._SX342_SY445_.jpg",
+    "description": "",
     "isDestaque": false
   },
   {
+    "id": 74239,
     "title": "O Homem que Calculava",
     "author": "Malba Tahan",
-    "price": "R$14,00",
-    "cover": "https://m.aabbportoalegre.com.br/intranet/modulos/biblioteca/imgs/6819.jpg",
+    "price": "14",
+    "cover": "https://m.media-amazon.com/images/I/61GGCGwfPJL._SL1000_.jpg",
+    "description": "",
     "isDestaque": false
   },
   {
+    "id": 23839,
     "title": "O Idiota",
     "author": "Fiódor Dostoiévski",
-    "price": "R$32,00",
+    "price": "32",
     "cover": "https://m.media-amazon.com/images/I/51EuSosoqJL._SY445_SX342_.jpg",
+    "description": "",
     "isDestaque": false
   },
   {
+    "id": 83231,
     "title": "O Livre Mercado e Seus Inimigos",
     "author": "Ludwig von Mises",
-    "price": "R$22,00",
+    "price": "22",
     "cover": "https://m.media-amazon.com/images/I/51y2WDdIQoL._SY445_SX342_.jpg",
+    "description": "",
     "isDestaque": false
   },
   {
+    "id": 23922,
     "title": "O Lobo da Estepe",
     "author": "Hermann Hesse",
-    "price": "R$28,00",
+    "price": "28",
     "cover": "https://m.media-amazon.com/images/I/A1emmdNI8-L._AC_UF1000,1000_QL80_.jpg",
+    "description": "",
     "isDestaque": false
   },
   {
+    "id": 94888,
     "title": "O Livro dos Manuais",
     "author": "Paulo Coelho",
-    "price": "R$7,00",
+    "price": "7",
     "cover": "https://d1pkzhm5uq4mnt.cloudfront.net/imagens/capas/d187c640f271044e18ed71e457b12dc58e63f155.jpg",
+    "description": "",
     "isDestaque": false
   },
   {
+    "id": 92822,
     "title": "O Príncipe",
     "author": "Maquiavel",
-    "price": "R$8,00",
+    "price": "8",
     "cover": "https://m.media-amazon.com/images/I/51fJp6IPGAL._SY445_SX342_.jpg",
+    "description": "",
     "isDestaque": false
   },
   {
-    "title": "O Sol é Para Todos",
-    "author": "Harper Lee",
-    "price": "R$26,00",
-    "cover": "https://m.media-amazon.com/images/I/91WKPd60P4L._SY466_.jpg",
-    "isDestaque": false
-  },
-  {
+    "id": 44352,
     "title": "O Universo Numa Casca de Noz",
     "author": "Stephen Hawking",
-    "price": "R$25,00",
+    "price": "25",
     "cover": "https://m.media-amazon.com/images/I/314o1VN4iqL._SY445_SX342_.jpg",
+    "description": "",
     "isDestaque": false
   },
   {
+    "id": 32983,
     "title": "Os Sofrimentos do Jovem Werther",
     "author": "Johann Wolfgang von Goethe",
-    "price": "R$22,00",
+    "price": "22",
     "cover": "https://m.media-amazon.com/images/I/51SSEeTIXcL._SY445_SX342_.jpg",
+    "description": "",
     "isDestaque": false
   },
   {
+    "id": 32908,
     "title": "Os Sertões Volume 1 + Volume 2",
     "author": "Euclides da Cunha",
-    "price": "R$18,00",
+    "price": "18",
     "cover": "https://cdn.awsli.com.br/300x300/1832/1832888/produto/20186401226140ed57f.jpg",
+    "description": "",
     "isDestaque": false
   },
   {
+    "id": 98888,
     "title": "O que o Governo Fez com o Nosso Dinheiro",
     "author": "Murray Rothbard",
-    "price": "R$14,00",
+    "price": "14",
     "cover": "https://m.media-amazon.com/images/I/51sstEmjdML._SY445_SX342_.jpg",
+    "description": "",
     "isDestaque": false
   },
   {
+    "id": 97928,
     "title": "O Que Se Vê e o Que Não Se Vê",
     "author": "Frédéric Bastiat",
-    "price": "R$24,00",
+    "price": "24",
     "cover": "https://m.media-amazon.com/images/I/51BuPo24QOL._SY445_SX342_.jpg",
+    "description": "",
     "isDestaque": false
   },
   {
+    "id": 92362,
     "title": "One punch man vol.01",
     "author": "Yusuke Murata",
-    "price": "R$14,00",
+    "price": "14",
     "cover": "https://m.media-amazon.com/images/I/51b1z-rl+zL._SY445_SX342_.jpg",
+    "description": "",
     "isDestaque": false
   }
 ]
