@@ -1,6 +1,6 @@
 const cors = require("cors");
 const express = require("express");
-const { readBooks, writeBooks } = require("./utils/fileHandler");
+const connectToDatabase = require("./db");
 
 const app = express();
 const port = 3000;
@@ -8,73 +8,69 @@ const port = 3000;
 app.use(express.json());
 app.use(cors());
 
+let booksCollection;
+
+connectToDatabase()
+  .then((db) => {
+    booksCollection = db.collection("books");
+    app.listen(port, () => {
+      console.log(`Servidor rodando na porta ${port}`);
+    });
+  })
+  .catch((error) => {
+    console.error("Erro ao conectar ao banco de dados:", error);
+  });
+
 app.get("/books", async (req, res) => {
   try {
-    const books = await readBooks();
+    const books = await booksCollection.find().toArray();
     res.json(books);
   } catch (error) {
-    res.status(500).json({ error: "Erro ao ler os livros" });
+    res.status(500).json({ error: "Erro ao buscar os livros" });
   }
 });
 
 app.post("/books", async (req, res) => {
   try {
     const newBook = req.body;
-    const books = await readBooks();
-
-    books.push(newBook);
-    await writeBooks(books);
-
-    res.status(201).json(newBook);
+    const result = await booksCollection.insertOne(newBook);
+    res.status(201).json({ ...newBook, _id: result.insertedId });
   } catch (error) {
     res.status(500).json({ error: "Erro ao adicionar o livro" });
   }
 });
 
 app.put("/books/:id", async (req, res) => {
+  const { id } = req.params;
+  const updatedBook = req.body;
   try {
-    const books = await readBooks();
-    const bookId = parseInt(req.params.id, 10);
+    const result = await booksCollection.updateOne(
+      { _id: new require("mongodb").ObjectId(id) },
+      { $set: updatedBook }
+    );
 
-    if (isNaN(bookId)) {
-      return res.status(400).json({ error: "ID inválido" });
-    }
-
-    const bookIndex = books.findIndex((book) => book.id === bookId);
-
-    if (bookIndex === -1) {
+    if (result.matchedCount === 0) {
       return res.status(404).json({ error: "Livro não encontrado" });
     }
 
-    const updatedBook = req.body;
-    books[bookIndex] = { ...books[bookIndex], ...updatedBook };
-
-    await writeBooks(books);
-    res.status(200).json(books[bookIndex]);
+    res.status(200).json({ message: "Livro atualizado com sucesso" });
   } catch (error) {
     res.status(500).json({ error: "Erro ao atualizar o livro" });
   }
 });
 
 app.delete("/books/:id", async (req, res) => {
+  const { id } = req.params;
   try {
-    const books = await readBooks();
-    const bookId = parseInt(req.params.id, 10);
+    const result = await booksCollection.deleteOne({
+      _id: new require("mongodb").ObjectId(id),
+    });
 
-    if (isNaN(bookId)) {
-      return res.status(400).json({ error: "ID inválido" });
-    }
-
-    const bookIndex = books.findIndex((book) => book.id === bookId);
-
-    if (bookIndex === -1) {
+    if (result.deletedCount === 0) {
       return res.status(404).json({ error: "Livro não encontrado" });
     }
 
-    const removedBook = books.splice(bookIndex, 1)[0];
-
-    await writeBooks(books);
-    res.status(200).json(removedBook);
+    res.status(200).json({ message: "Livro deletado com sucesso" });
   } catch (error) {
     res.status(500).json({ error: "Erro ao deletar o livro" });
   }
@@ -82,35 +78,28 @@ app.delete("/books/:id", async (req, res) => {
 
 app.get("/books/destaques", async (req, res) => {
   try {
-    const books = await readBooks();
-    const destaques = books.filter((book) => book.isDestaque);
+    const destaques = await booksCollection
+      .find({ isDestaque: true })
+      .toArray();
     res.json(destaques);
   } catch (error) {
-    res.status(500).json({ error: "Erro ao buscar os livros em destaque" });
+    res.status(500).json({ error: "Erro ao buscar os destaques" });
   }
 });
 
 app.get("/books/:id", async (req, res) => {
+  const { id } = req.params;
   try {
-    const books = await readBooks();
-    const bookId = parseInt(req.params.id, 10);
-
-    if (isNaN(bookId)) {
-      return res.status(400).json({ error: "ID inválido" });
-    }
-
-    const book = books.find((b) => b.id === bookId);
+    const book = await booksCollection.findOne({
+      _id: new require("mongodb").ObjectId(id),
+    });
 
     if (!book) {
       return res.status(404).json({ error: "Livro não encontrado" });
     }
 
-    res.status(200).json(book);
+    res.json(book);
   } catch (error) {
     res.status(500).json({ error: "Erro ao buscar o livro" });
   }
-});
-
-app.listen(port, () => {
-  console.log(`Servidor rodando na porta ${port}`);
 });
