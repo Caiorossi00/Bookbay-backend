@@ -91,9 +91,10 @@ app.get("/books/destaques", async (req, res) => {
 
 app.get("/books/:id", async (req, res) => {
   const { id } = req.params;
+
   try {
     const book = await booksCollection.findOne({
-      _id: new ObjectId(id),
+      id: Number(id),
     });
 
     if (!book) {
