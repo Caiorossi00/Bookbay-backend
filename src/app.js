@@ -1,5 +1,6 @@
 const cors = require("cors");
 const express = require("express");
+const { ObjectId } = require("mongodb");
 const connectToDatabase = require("./db");
 
 const app = express();
@@ -45,7 +46,7 @@ app.put("/books/:id", async (req, res) => {
   const updatedBook = req.body;
   try {
     const result = await booksCollection.updateOne(
-      { _id: new require("mongodb").ObjectId(id) },
+      { _id: new ObjectId(id) },
       { $set: updatedBook }
     );
 
@@ -63,7 +64,7 @@ app.delete("/books/:id", async (req, res) => {
   const { id } = req.params;
   try {
     const result = await booksCollection.deleteOne({
-      _id: new require("mongodb").ObjectId(id),
+      _id: new ObjectId(id),
     });
 
     if (result.deletedCount === 0) {
@@ -72,6 +73,7 @@ app.delete("/books/:id", async (req, res) => {
 
     res.status(200).json({ message: "Livro deletado com sucesso" });
   } catch (error) {
+    console.error("Erro ao deletar:", error);
     res.status(500).json({ error: "Erro ao deletar o livro" });
   }
 });
@@ -91,7 +93,7 @@ app.get("/books/:id", async (req, res) => {
   const { id } = req.params;
   try {
     const book = await booksCollection.findOne({
-      _id: new require("mongodb").ObjectId(id),
+      _id: new ObjectId(id),
     });
 
     if (!book) {
