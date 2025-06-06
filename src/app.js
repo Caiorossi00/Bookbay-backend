@@ -106,3 +106,21 @@ app.get("/books/:id", async (req, res) => {
     res.status(500).json({ error: "Erro ao buscar o livro" });
   }
 });
+
+app.get("/books/genero/:genero", async (req, res) => {
+  const { genero } = req.params;
+
+  try {
+    const books = await booksCollection.find({ genres: genero }).toArray();
+
+    if (books.length === 0) {
+      return res
+        .status(404)
+        .json({ error: "Nenhum livro encontrado para esse gênero" });
+    }
+
+    res.json(books);
+  } catch (error) {
+    res.status(500).json({ error: "Erro ao buscar os livros por gênero" });
+  }
+});
