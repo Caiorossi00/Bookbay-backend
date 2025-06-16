@@ -40,7 +40,37 @@ async function createOrder(req, res) {
   }
 }
 
+async function deleteOrder(req, res) {
+  const orderId = req.params.id;
+
+  if (!ObjectId.isValid(orderId)) {
+    return res.status(400).json({ error: "ID de pedido inválido" });
+  }
+
+  const ordersCollection = await getCollection("orders");
+
+  try {
+    const result = await ordersCollection.deleteOne({
+      _id: new ObjectId(orderId),
+    });
+
+    if (result.deletedCount === 0) {
+      return res.status(404).json({ error: "Pedido não encontrado" });
+    }
+    res.status(204).send();
+  } catch (error) {
+    res.status(500).json({ error: "Erro ao excluir pedido" });
+  }
+}
+
 module.exports = {
   getAllOrders,
   createOrder,
+  deleteOrder,
+};
+
+module.exports = {
+  getAllOrders,
+  createOrder,
+  deleteOrder,
 };
