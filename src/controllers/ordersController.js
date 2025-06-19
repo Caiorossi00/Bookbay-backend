@@ -15,8 +15,7 @@ async function createOrder(req, res) {
   const newOrder = req.body;
 
   if (
-    !newOrder.nome ||
-    !newOrder.email ||
+    !newOrder.usuarioId ||
     !newOrder.cep ||
     !newOrder.rua ||
     !newOrder.bairro ||
@@ -63,14 +62,24 @@ async function deleteOrder(req, res) {
   }
 }
 
-module.exports = {
-  getAllOrders,
-  createOrder,
-  deleteOrder,
-};
+async function getOrdersByUser(req, res) {
+  const userId = req.query.userId;
+
+  if (!userId) return res.status(400).json({ error: "User ID necessário" });
+
+  const ordersCollection = await getCollection("orders");
+
+  try {
+    const orders = await ordersCollection.find({ usuarioId: userId }).toArray();
+    res.json(orders);
+  } catch (error) {
+    res.status(500).json({ error: "Erro ao buscar pedidos do usuário" });
+  }
+}
 
 module.exports = {
   getAllOrders,
   createOrder,
   deleteOrder,
+  getOrdersByUser,
 };
