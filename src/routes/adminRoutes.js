@@ -1,8 +1,8 @@
 const express = require("express");
 const router = express.Router();
-const { authenticateToken } = require("../controllers/authController");
+const authorizeAdmin = require("../middlewares/authorizeAdmin");
 
-router.use(authenticateToken);
+router.use(authorizeAdmin);
 
 router.get("/", (req, res) => {
   res.json({ message: "Bem-vindo à área admin!" });
