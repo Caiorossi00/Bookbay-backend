@@ -14,7 +14,7 @@ let db;
 async function connectToDatabase() {
   if (db) return db;
   await client.connect();
-  db = client.db();
+  db = client.db("bookbay");
   console.log("Conectado ao MongoDB Atlas");
   return db;
 }
