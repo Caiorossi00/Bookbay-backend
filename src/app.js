@@ -8,7 +8,22 @@ const adminRoutes = require("./routes/adminRoutes");
 
 const app = express();
 
-app.use(cors());
+const allowedOrigins = ["https://bookbay-frontend-eight.vercel.app"];
+
+app.use(
+  cors({
+    origin: function (origin, callback) {
+      if (!origin) return callback(null, true);
+      if (allowedOrigins.indexOf(origin) === -1) {
+        return callback(
+          new Error("CORS não permitido para este domínio"),
+          false
+        );
+      }
+      return callback(null, true);
+    },
+  })
+);
 app.use(express.json());
 
 app.use("/books", booksRoutes);
