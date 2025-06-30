@@ -13,10 +13,12 @@ app.use(express.json());
 
 app.use("/books", booksRoutes);
 app.use("/orders", ordersRouter);
-
 app.use("/auth", authRoutes);
-
 app.use("/admin", adminRoutes);
+
+app.get("/", (req, res) => {
+  res.send("API do BookBay funcionando.");
+});
 
 const port = process.env.PORT || 5000;
 app.listen(port, () => {
