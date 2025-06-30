@@ -3,10 +3,36 @@ const { ObjectId } = require("mongodb");
 
 async function getAllOrders(req, res) {
   const ordersCollection = await getCollection("orders");
+  const booksCollection = await getCollection("books");
+
   try {
     const orders = await ordersCollection.find().toArray();
+
+    for (const order of orders) {
+      const livrosCompletos = [];
+
+      for (const livroId of order.produtos) {
+        const id =
+          typeof livroId === "string" ? new ObjectId(livroId) : livroId;
+
+        const livro = await booksCollection.findOne({ _id: id });
+
+        if (livro) {
+          livrosCompletos.push({
+            _id: livro._id,
+            title: livro.title,
+            price: livro.price,
+            cover: livro.cover,
+          });
+        }
+      }
+
+      order.produtos = livrosCompletos;
+    }
+
     res.json(orders);
   } catch (error) {
+    console.error("Erro ao buscar pedidos:", error);
     res.status(500).json({ error: "Erro ao buscar pedidos" });
   }
 }
