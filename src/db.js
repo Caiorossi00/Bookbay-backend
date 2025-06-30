@@ -2,14 +2,19 @@ require("dotenv").config();
 const { MongoClient } = require("mongodb");
 
 const uri = process.env.MONGODB_URI;
-const client = new MongoClient(uri);
+
+const client = new MongoClient(uri, {
+  ssl: true,
+  retryWrites: true,
+  tlsAllowInvalidCertificates: false,
+});
 
 let db;
 
 async function connectToDatabase() {
   if (db) return db;
   await client.connect();
-  db = client.db("bookbay");
+  db = client.db();
   console.log("Conectado ao MongoDB Atlas");
   return db;
 }
