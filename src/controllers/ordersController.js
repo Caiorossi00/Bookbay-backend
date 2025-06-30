@@ -16,6 +16,8 @@ async function createOrder(req, res) {
 
   if (
     !newOrder.usuarioId ||
+    !newOrder.nome ||
+    !newOrder.contato ||
     !newOrder.cep ||
     !newOrder.rua ||
     !newOrder.bairro ||
@@ -68,11 +70,36 @@ async function getOrdersByUser(req, res) {
   if (!userId) return res.status(400).json({ error: "User ID necessário" });
 
   const ordersCollection = await getCollection("orders");
+  const booksCollection = await getCollection("books");
 
   try {
     const orders = await ordersCollection.find({ usuarioId: userId }).toArray();
+
+    for (const order of orders) {
+      const livrosCompletos = [];
+
+      for (const livroId of order.produtos) {
+        const id =
+          typeof livroId === "string" ? new ObjectId(livroId) : livroId;
+
+        const livro = await booksCollection.findOne({ _id: id });
+
+        if (livro) {
+          livrosCompletos.push({
+            _id: livro._id,
+            title: livro.title,
+            price: livro.price,
+            foto: livro.cover,
+          });
+        }
+      }
+
+      order.produtos = livrosCompletos;
+    }
+
     res.json(orders);
   } catch (error) {
+    console.error("Erro ao buscar pedidos do usuário:", error);
     res.status(500).json({ error: "Erro ao buscar pedidos do usuário" });
   }
 }
