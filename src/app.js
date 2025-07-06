@@ -8,7 +8,10 @@ const adminRoutes = require("./routes/adminRoutes");
 
 const app = express();
 
-const allowedOrigins = ["https://bookbay-frontend-eight.vercel.app"];
+const allowedOrigins = [
+  "https://bookbay-frontend-eight.vercel.app",
+  "http://localhost:5173",
+];
 
 const corsOptions = {
   origin: function (origin, callback) {
