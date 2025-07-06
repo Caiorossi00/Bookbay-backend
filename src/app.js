@@ -11,6 +11,8 @@ const app = express();
 const allowedOrigins = [
   "https://bookbay-frontend-eight.vercel.app",
   "http://localhost:5173",
+  "https://bookbay.store",
+  "https://www.bookbay.store",
 ];
 
 const corsOptions = {
