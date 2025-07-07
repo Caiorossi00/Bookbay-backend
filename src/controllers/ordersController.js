@@ -14,7 +14,6 @@ async function getAllOrders(req, res) {
       for (const livroId of order.produtos) {
         const id =
           typeof livroId === "string" ? new ObjectId(livroId) : livroId;
-
         const livro = await booksCollection.findOne({ _id: id });
 
         if (livro) {
@@ -84,6 +83,7 @@ async function deleteOrder(req, res) {
     if (result.deletedCount === 0) {
       return res.status(404).json({ error: "Pedido não encontrado" });
     }
+
     res.status(204).send();
   } catch (error) {
     res.status(500).json({ error: "Erro ao excluir pedido" });
@@ -91,7 +91,7 @@ async function deleteOrder(req, res) {
 }
 
 async function getOrdersByUser(req, res) {
-  const userId = req.query.userId;
+  const userId = req.user.id;
 
   if (!userId) return res.status(400).json({ error: "User ID necessário" });
 
@@ -107,7 +107,6 @@ async function getOrdersByUser(req, res) {
       for (const livroId of order.produtos) {
         const id =
           typeof livroId === "string" ? new ObjectId(livroId) : livroId;
-
         const livro = await booksCollection.findOne({ _id: id });
 
         if (livro) {
@@ -115,7 +114,7 @@ async function getOrdersByUser(req, res) {
             _id: livro._id,
             title: livro.title,
             price: livro.price,
-            foto: livro.cover,
+            cover: livro.cover,
           });
         }
       }
