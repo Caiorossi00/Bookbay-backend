@@ -1,5 +1,6 @@
 const express = require("express");
 const cors = require("cors");
+const rateLimit = require("express-rate-limit");
 
 const booksRoutes = require("./routes/books");
 const ordersRouter = require("./routes/orders");
@@ -28,6 +29,13 @@ const corsOptions = {
   credentials: true,
 };
 
+const limiter = rateLimit({
+  windowMs: 1 * 60 * 1000,
+  max: 100,
+  message: "Muitas requisições feitas, por favor espere um pouco.",
+});
+
+app.use(limiter);
 app.use(cors(corsOptions));
 app.use(express.json());
 
