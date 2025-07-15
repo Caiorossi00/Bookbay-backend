@@ -115,6 +115,7 @@ async function getOrdersByUser(req, res) {
             title: livro.title,
             price: livro.price,
             cover: livro.cover,
+            author: livro.author,
           });
         }
       }
