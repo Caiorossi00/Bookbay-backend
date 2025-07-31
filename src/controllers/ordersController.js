@@ -1,5 +1,6 @@
 const { getCollection } = require("../db");
 const { ObjectId } = require("mongodb");
+const { sendOrderNotification } = require("../services/emailService");
 
 async function getAllOrders(req, res) {
   const ordersCollection = await getCollection("orders");
@@ -57,9 +58,36 @@ async function createOrder(req, res) {
   }
 
   const ordersCollection = await getCollection("orders");
+  const booksCollection = await getCollection("books");
 
   try {
     const result = await ordersCollection.insertOne(newOrder);
+
+    const livrosCompletos = [];
+
+    for (const livroId of newOrder.produtos) {
+      const id = typeof livroId === "string" ? new ObjectId(livroId) : livroId;
+      const livro = await booksCollection.findOne({ _id: id });
+
+      if (livro) {
+        livrosCompletos.push({
+          _id: livro._id,
+          title: livro.title,
+          price: livro.price,
+          cover: livro.cover,
+        });
+      }
+    }
+
+    const pedidoParaEmail = {
+      ...newOrder,
+      produtos: livrosCompletos,
+    };
+
+    sendOrderNotification(pedidoParaEmail).catch((err) =>
+      console.error("Erro ao enviar email de notificação:", err)
+    );
+
     res.status(201).json({ ...newOrder, _id: result.insertedId });
   } catch (error) {
     res.status(500).json({ error: "Erro ao criar pedido" });
