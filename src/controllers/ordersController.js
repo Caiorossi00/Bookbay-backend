@@ -38,21 +38,30 @@ async function getAllOrders(req, res) {
 }
 
 async function createOrder(req, res) {
-  const newOrder = req.body;
+  const {
+    usuarioId,
+    nome,
+    contato,
+    cep,
+    rua,
+    bairro,
+    numero,
+    pagamento,
+    produtos,
+  } = req.body;
 
   if (
-    !newOrder.usuarioId ||
-    !newOrder.nome ||
-    !newOrder.contato ||
-    !newOrder.cep ||
-    !newOrder.rua ||
-    !newOrder.bairro ||
-    !newOrder.numero ||
-    !newOrder.pagamento ||
-    !newOrder.produtos ||
-    !Array.isArray(newOrder.produtos) ||
-    newOrder.produtos.length === 0 ||
-    !newOrder.total
+    !usuarioId ||
+    !nome ||
+    !contato ||
+    !cep ||
+    !rua ||
+    !bairro ||
+    !numero ||
+    !pagamento ||
+    !produtos ||
+    !Array.isArray(produtos) ||
+    produtos.length === 0
   ) {
     return res.status(400).json({ error: "Dados do pedido incompletos" });
   }
@@ -61,11 +70,10 @@ async function createOrder(req, res) {
   const booksCollection = await getCollection("books");
 
   try {
-    const result = await ordersCollection.insertOne(newOrder);
-
     const livrosCompletos = [];
+    let subtotal = 0;
 
-    for (const livroId of newOrder.produtos) {
+    for (const livroId of produtos) {
       const id = typeof livroId === "string" ? new ObjectId(livroId) : livroId;
       const livro = await booksCollection.findOne({ _id: id });
 
@@ -76,8 +84,30 @@ async function createOrder(req, res) {
           price: livro.price,
           cover: livro.cover,
         });
+
+        subtotal += Number(livro.price);
       }
     }
+
+    const shippingFee = subtotal < 149 ? 30 : 0;
+    const total = subtotal + shippingFee;
+
+    const newOrder = {
+      usuarioId,
+      nome,
+      contato,
+      cep,
+      rua,
+      bairro,
+      numero,
+      pagamento,
+      produtos,
+      subtotal,
+      shippingFee,
+      total,
+    };
+
+    const result = await ordersCollection.insertOne(newOrder);
 
     const pedidoParaEmail = {
       ...newOrder,
@@ -90,6 +120,7 @@ async function createOrder(req, res) {
 
     res.status(201).json({ ...newOrder, _id: result.insertedId });
   } catch (error) {
+    console.error("Erro ao criar pedido:", error);
     res.status(500).json({ error: "Erro ao criar pedido" });
   }
 }
