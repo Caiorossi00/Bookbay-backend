@@ -89,7 +89,7 @@ async function createOrder(req, res) {
       }
     }
 
-    const shippingFee = subtotal < 149 ? 30 : 0;
+    const shippingFee = subtotal < 150 ? 30 : 0;
     const total = subtotal + shippingFee;
 
     const newOrder = {
