@@ -9,6 +9,9 @@ const adminRoutes = require("./routes/adminRoutes");
 
 const app = express();
 
+console.log("Node version:", process.version);
+console.log("OpenSSL version:", process.versions.openssl);
+
 app.set("trust proxy", 1);
 
 const allowedOrigins = [
