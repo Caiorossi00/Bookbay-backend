@@ -9,6 +9,8 @@ const adminRoutes = require("./routes/adminRoutes");
 
 const app = express();
 
+app.set("trust proxy", 1);
+
 const allowedOrigins = [
   "https://bookbay-frontend-eight.vercel.app",
   "http://localhost:5173",
