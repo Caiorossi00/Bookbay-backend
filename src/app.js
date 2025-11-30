@@ -19,7 +19,6 @@ const allowedOrigins = [
   "http://localhost:5173",
   "https://bookbay.store",
   "https://www.bookbay.store",
-  "https://bookbay-backend-production.up.railway.app",
 ];
 
 const corsOptions = {
